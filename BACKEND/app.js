@@ -34,6 +34,7 @@ const connectDB = async () => {
     };
 connectDB();
 // middlewares
+app.use(express.static(path.join(__dirname, "../ecommerce-front/build")));
 app.use(morgan('dev'));
 app.use(bodyParser.json());
 app.use(cookieParser());
