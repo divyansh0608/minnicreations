@@ -24,7 +24,7 @@ const app = express();
 //         useCreateIndex: true
 //     })
 //     .then(() => console.log('DB Connected'));
-const URI ="mongodb+srv://shopper:shoppass@shopdb-iuvtc.mongodb.net/test?retryWrites=true&w=majority";
+const URI ="mongodb+srv://iBond008:newpass2@shoplatest.uop4w1j.mongodb.net/";
 const connectDB = async () => {
       await mongoose.connect(URI, {
         useUnifiedTopology: true,
